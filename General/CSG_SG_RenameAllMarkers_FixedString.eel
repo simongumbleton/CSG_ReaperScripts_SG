@@ -1,0 +1,86 @@
+// Batch rename all markers in project using user input
+//
+//Ask user for string input
+//Loop through the project markers and rename them using user input
+//Only rename markers, not regions
+
+// ----- DEBUGGING ====>
+debug = 1; // 0 => No console. 1 => Display console messages for debugging.
+clean = 0; // 0 => No console cleaning before every script execution. 1 => Console cleaning before every script execution.
+
+// print strings
+function msg_s(variable)
+(
+  debug === 1 ? (
+    strlen(variable) > 0 ? (
+      ShowConsoleMsg(variable);
+      ShowConsoleMsg("\n");
+    ):(
+      ShowConsoleMsg("ERROR : Empty String");
+      ShowConsoleMsg("\n");
+    );
+  );
+);
+
+// Double
+function msg_d(variable)
+(
+  debug === 1 ? (
+    sprintf(str, "%d", variable);
+    ShowConsoleMsg(str);
+    ShowConsoleMsg("\n");
+  );
+);
+
+// Float
+function msg_f(variable)
+(
+  debug === 1 ? (
+    sprintf(str, "%f", variable);
+    ShowConsoleMsg(str);
+    ShowConsoleMsg("\n");
+  );
+);
+
+// <==== DEBUGGING -----
+
+function UserDialog()
+(
+  #dialog_ret_vals = "Marker"; //default values for Input
+  GetUserInputs("Rename Markers", 1, "MarkerName", #dialog_ret_vals);
+);
+
+function renameProjectMarkers()
+( 
+  msg_s("==== OUTPUT LOG ====");
+  msg_s("=====>");
+  
+  UserDialog();
+  msg_s(#dialog_ret_vals);
+  newMarkerName = #dialog_ret_vals; 
+  i = 0;
+  x = 0;
+  // EEL: int EnumProjectMarkers(int idx, bool &isrgnOut, &posOut, &rgnendOut, #nameOut, int &markrgnindexnumberOut)
+  while (EnumProjectMarkers(i, is_region, pos, rgn_end, #name, markrgn_index_number) > 0) (
+    // This action below may be required for debugging
+    //msg_d(is_region);
+    //msg_f(pos);
+    //msg_f(rgn_end);    
+        
+    //msg_d(markrgn_index_number); // Displays region index in console
+    //msg_s(#name); // Diplays regions name in console
+    //msg_s("<=====");
+    is_region == 0 ?
+    (
+        SetProjectMarker(markrgn_index_number,0, pos, rgnend, newMarkerName);
+        x +=1;
+    );
+    i += 1;
+  );
+  
+  Main_SaveProject(0, 0); // Save the project
+  
+);
+
+renameProjectMarkers();
+

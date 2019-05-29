@@ -1,3 +1,11 @@
+# -- /**
+ # -- * ReaScript Name: waapi
+ # -- * Description: 
+ # -- * Instructions: 
+ # -- * Author: Simon Gumbleton
+ # -- * Version: 1.0
+ # -- */
+
 class WAAPI_URI:
     # Retrieve global Wwise information.
     ak_wwise_core_getinfo = u"ak.wwise.core.getInfo"

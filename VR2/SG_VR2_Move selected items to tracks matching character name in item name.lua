@@ -1,9 +1,10 @@
--- @description Move selected items to tracks on same name as items
--- @version 1.03
--- @author MPL
--- @website http://forum.cockos.com/showthread.php?t=188335
--- @changelog
---   - disable moving items to zero position
+-- /**
+ -- * ReaScript Name: SG_VR2_Move selected items to tracks matching character name in item name
+ -- * Description: 
+ -- * Instructions: 
+ -- * Author: Simon Gumbleton
+ -- * Version: 1.0
+ -- */
   
   for key in pairs(reaper) do _G[key]=reaper[key]  end  
   function main()

@@ -1,11 +1,10 @@
---[[
-   * ReaScript Name: Crop selected region to selected item
-   * Lua script for Cockos REAPER
-   * Author: HeDa
-   * Author URI: http://forum.cockos.com/member.php?u=47822
-   * Licence: GPL v3
-   * Version: 2.0
-]]
+-- /**
+ -- * ReaScript Name: CSG_SG_Crop_Region_To_Selected_Items
+ -- * Description: 
+ -- * Instructions: 
+ -- * Author: Simon Gumbleton
+ -- * Version: 1.0
+ -- */
 
 local item= reaper.GetSelectedMediaItem(0,0)
 if item then 

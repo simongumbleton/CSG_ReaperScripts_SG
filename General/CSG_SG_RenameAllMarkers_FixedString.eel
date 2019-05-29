@@ -1,3 +1,13 @@
+/**
+ * ReaScript Name: CSG_SG_RenameAllMarkers_FixedString
+ * Description: 
+ * Instructions: 
+ * Author: Simon Gumbleton
+ * Version: 1.0
+*/
+
+
+
 // Batch rename all markers in project using user input
 //
 //Ask user for string input

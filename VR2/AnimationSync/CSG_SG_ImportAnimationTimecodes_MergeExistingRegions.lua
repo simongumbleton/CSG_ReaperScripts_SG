@@ -1,3 +1,12 @@
+-- /**
+ -- * ReaScript Name: CSG_SG_ImportAnimationTimecodes_MergeExistingRegions
+ -- * Description: 
+ -- * Instructions: 
+ -- * Author: Simon Gumbleton
+ -- * Version: 1.0
+ -- */
+
+
 require("LuaXML/xml")
 require("LuaXML/handler")
 

@@ -1,28 +1,10 @@
---[[
- * ReaScript Name: Rename selected takes from CSV input
- * Description: See title.
- * Instructions: Select items. Run.
- * Author: X-Raym
- * Author URI: http://extremraym.com
- * Repository: GitHub > X-Raym > EEL Scripts for Cockos REAPER
- * Repository URI: https://github.com/X-Raym/REAPER-EEL-Scripts
- * File URI: https://github.com/X-Raym/REAPER-EEL-Scripts/scriptName.eel
- * Licence: GPL v3
- * Forum Thread: Scripts: Items Properties (various)
- * Forum Thread URI: http://forum.cockos.com/showthread.php?t=166689
- * REAPER: 5.0
- * Extensions: None
- * Version: 1.0
---]]
- 
---[[
- * Changelog:
- * v1.0 (2016-02-29)
-  + Initial Release
---]]
-
--- Consider transposing the table if you have your list in several rows
--- http://www.convertcsv.com/transpose-csv.htm
+-- /**
+ -- * ReaScript Name: CSG_SG_Rename Selected Items - Remove Language Code
+ -- * Description: 
+ -- * Instructions: 
+ -- * Author: Simon Gumbleton
+ -- * Version: 1.0
+ -- */
 
 -- USER CONFIG AREA -----------------------------------------------------------
 

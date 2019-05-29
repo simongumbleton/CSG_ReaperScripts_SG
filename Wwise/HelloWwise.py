@@ -1,3 +1,12 @@
+# -- /**
+ # -- * ReaScript Name: HelloWwise
+ # -- * Description: 
+ # -- * Instructions: 
+ # -- * Author: Simon Gumbleton
+ # -- * Version: 1.0
+ # -- */
+
+
 import os
 import sys
 

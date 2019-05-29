@@ -1,3 +1,12 @@
+# -- /**
+ # -- * ReaScript Name: CSG_SG_HelloWorld
+ # -- * Description: 
+ # -- * Instructions: 
+ # -- * Author: Simon Gumbleton
+ # -- * Version: 1.0
+ # -- */
+
+
 import sys
 from reaper_python import * 
 

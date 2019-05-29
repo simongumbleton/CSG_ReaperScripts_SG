@@ -1,3 +1,13 @@
+-- /**
+ -- * ReaScript Name: CSG_SG_ImportAnimationTimecodes_fromExcel
+ -- * Description: 
+ -- * Instructions: 
+ -- * Author: Simon Gumbleton
+ -- * Version: 1.0
+ -- */
+
+
+
 require("LuaXML/xml")
 require("LuaXML/handler")
 

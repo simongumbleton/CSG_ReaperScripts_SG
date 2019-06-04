@@ -1,10 +1,11 @@
--- /**
- -- * ReaScript Name: CSG_SG_Crop_Region_To_Selected_Items
- -- * Description: 
- -- * Instructions: 
- -- * Author: Simon Gumbleton
- -- * Version: 1.0
- -- */
+--[[
+* ReaScript Name: CSG_SG_Crop_Region_To_Selected_Items
+* Description: 
+* Instructions: 
+* Author: Simon Gumbleton
+* Version: 1.0
+--]]
+ 
 
 local item= reaper.GetSelectedMediaItem(0,0)
 if item then 

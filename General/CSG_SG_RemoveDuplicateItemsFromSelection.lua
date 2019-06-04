@@ -1,10 +1,10 @@
--- /**
- -- * ReaScript Name: CSG_SG_RemoveDuplicateItemsFromSelection
- -- * Description: 
- -- * Instructions: 
- -- * Author: Simon Gumbleton
- -- * Version: 1.0
- -- */
+--[[
+* ReaScript Name: CSG_SG_RemoveDuplicateItemsFromSelection
+* Description: 
+* Instructions: 
+* Author: Simon Gumbleton
+* Version: 1.0
+--]]
   
   script_title = "Remove duplicate items from selection"
   reaper.Undo_BeginBlock()

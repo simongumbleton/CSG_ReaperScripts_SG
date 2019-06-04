@@ -1,10 +1,10 @@
-# -- /**
- # -- * ReaScript Name: waapi
- # -- * Description: 
- # -- * Instructions: 
- # -- * Author: Simon Gumbleton
- # -- * Version: 1.0
- # -- */
+#
+# * ReaScript Name: waapi
+# * Description: 
+# * Instructions: 
+# * Author: Simon Gumbleton
+# * Version: 1.0
+#
 
 class WAAPI_URI:
     # Retrieve global Wwise information.

@@ -1,10 +1,10 @@
--- /**
- -- * ReaScript Name: CSG_SG_ImportAnimationTimecodes_fromExcel
- -- * Description: 
- -- * Instructions: 
- -- * Author: Simon Gumbleton
- -- * Version: 1.0
- -- */
+--[[
+* ReaScript Name: CSG_SG_ImportAnimationTimecodes_fromExcel
+* Description: 
+* Instructions: 
+* Author: Simon Gumbleton
+* Version: 1.0
+--]]
 
 
 

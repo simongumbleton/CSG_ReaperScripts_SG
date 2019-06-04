@@ -1,10 +1,10 @@
-# -- /**
- # -- * ReaScript Name: ak_autobahn
- # -- * Description: 
- # -- * Instructions: 
- # -- * Author: Simon Gumbleton
- # -- * Version: 1.0
- # -- */
+#
+# * ReaScript Name: ak_autobahn
+# * Description: 
+# * Instructions: 
+# * Author: Simon Gumbleton
+# * Version: 1.0
+#
 
 
 import inspect

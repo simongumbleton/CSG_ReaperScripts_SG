@@ -1,10 +1,10 @@
--- /**
- -- * ReaScript Name: CSG_SG_Rename Selected Items - Remove Language Code
- -- * Description: 
- -- * Instructions: 
- -- * Author: Simon Gumbleton
- -- * Version: 1.0
- -- */
+--[[
+* ReaScript Name: CSG_SG_Rename Selected Items - Remove Language Code
+* Description: 
+* Instructions: 
+* Author: Simon Gumbleton
+* Version: 1.0
+--]]
 
 -- USER CONFIG AREA -----------------------------------------------------------
 

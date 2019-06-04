@@ -1,10 +1,10 @@
-# -- /**
- # -- * ReaScript Name: CreateNewObjects_Refactor
- # -- * Description: 
- # -- * Instructions: 
- # -- * Author: Simon Gumbleton
- # -- * Version: 1.0
- # -- */
+#
+# * ReaScript Name: CreateNewObjects_Refactor
+# * Description: 
+# * Instructions: 
+# * Author: Simon Gumbleton
+# * Version: 1.0
+#
 
 
 import os

@@ -1,10 +1,10 @@
--- /**
- -- * ReaScript Name: CSG_SG_Rename markers and regions within time selection
- -- * Description: 
- -- * Instructions: 
- -- * Author: Simon Gumbleton
- -- * Version: 1.0
- -- */
+--[[
+* ReaScript Name: CSG_SG_Rename markers and regions within time selection
+* Description: 
+* Instructions: 
+* Author: Simon Gumbleton
+* Version: 1.0
+--]]
 
 function main()
   local time_sel_start, time_sel_end = reaper.GetSet_LoopTimeRange2(0, false, false, 0, 0, false)

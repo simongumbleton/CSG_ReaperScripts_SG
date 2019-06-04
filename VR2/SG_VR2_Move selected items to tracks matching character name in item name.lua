@@ -1,10 +1,10 @@
--- /**
- -- * ReaScript Name: SG_VR2_Move selected items to tracks matching character name in item name
- -- * Description: 
- -- * Instructions: 
- -- * Author: Simon Gumbleton
- -- * Version: 1.0
- -- */
+--[[
+* ReaScript Name: SG_VR2_Move selected items to tracks matching character name in item name
+* Description: 
+* Instructions: 
+* Author: Simon Gumbleton
+* Version: 1.0
+--]]
   
   for key in pairs(reaper) do _G[key]=reaper[key]  end  
   function main()

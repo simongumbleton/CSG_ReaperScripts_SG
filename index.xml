@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="CSG Reaper Scripts" commit="98249cacd354d796a35265ddc1d88c61b59934fc">
+<index version="1" name="CSG Reaper Scripts" commit="52447e0e089e9bce2ffecf66d21deea076ebe373">
   <category name="General">
     <reapack name="CSG_SG_Crop_Region_To_Selected_Items.lua" type="script" desc="CSG_SG_Crop_Region_To_Selected_Items">
-      <version name="2.0" author="HeDa" time="2019-01-30T13:35:24Z">
-        <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/70e996819839cca8fb15dd8661b8236a7bd66c30/General/CSG_SG_Crop_Region_To_Selected_Items.lua</source>
-      </version>
       <version name="1.0" author="Simon Gumbleton" time="2019-05-29T15:27:51Z">
         <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/98249cacd354d796a35265ddc1d88c61b59934fc/General/CSG_SG_Crop_Region_To_Selected_Items.lua</source>
       </version>
@@ -20,9 +17,8 @@
       </version>
     </reapack>
     <reapack name="CSG_SG_Rename Selected Items - Remove Language Code.lua" type="script" desc="CSG_SG_Rename Selected Items - Remove Language Code">
-      <version name="1.0" author="X-Raym" time="2019-01-30T13:35:24Z">
-        <changelog><![CDATA[+ Initial Release]]></changelog>
-        <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/70e996819839cca8fb15dd8661b8236a7bd66c30/General/CSG_SG_Rename%20Selected%20Items%20-%20Remove%20Language%20Code.lua</source>
+      <version name="1.0" author="Simon Gumbleton" time="2019-06-04T21:13:15Z">
+        <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/52447e0e089e9bce2ffecf66d21deea076ebe373/General/CSG_SG_Rename%20Selected%20Items%20-%20Remove%20Language%20Code.lua</source>
       </version>
     </reapack>
     <reapack name="CSG_SG_Rename Selected Regions - Find and Replace.lua" type="script" desc="CSG_SG_Rename Selected Regions - Find and Replace">
@@ -39,10 +35,6 @@
   <category name="VR2">
     <reapack name="SG_VR2_Move selected items to tracks matching character name in item name.lua" type="script" desc="SG_VR2_Move selected items to tracks matching character name in item name">
       <metadata/>
-      <version name="1.03" author="MPL" time="2019-01-30T13:35:24Z">
-        <changelog><![CDATA[- disable moving items to zero position]]></changelog>
-        <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/70e996819839cca8fb15dd8661b8236a7bd66c30/VR2/SG_VR2_Move%20selected%20items%20to%20tracks%20matching%20character%20name%20in%20item%20name.lua</source>
-      </version>
       <version name="1.0" author="Simon Gumbleton" time="2019-05-29T15:27:51Z">
         <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/98249cacd354d796a35265ddc1d88c61b59934fc/VR2/SG_VR2_Move%20selected%20items%20to%20tracks%20matching%20character%20name%20in%20item%20name.lua</source>
       </version>

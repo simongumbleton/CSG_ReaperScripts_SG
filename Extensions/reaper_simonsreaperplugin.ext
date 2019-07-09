@@ -1,0 +1,6 @@
+@description CSG Reaper to Wwise plugin
+@version 1.0
+@author Simon Gumbleton
+@provides
+   [windows] reaper_simonsreaperplugin_x64.dll https://github.com/simongumbleton/SimonsReaperPlugin/raw/master/LatestBuilds/reaper_simonsreaperplugin_x64.dll
+

@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="CSG Reaper Scripts" commit="747f147b55a31641168056913f18b32b6ee21cf2">
+<index version="1" name="CSG Reaper Scripts" commit="31129665e900ed27ef6c321ace9194aff5958d3b">
+  <category name="Extensions">
+    <reapack name="reaper_simonsreaperplugin.ext" type="extension" desc="CSG Reaper to Wwise plugin">
+      <version name="1.0" author="Simon Gumbleton" time="2019-07-09T19:45:39Z">
+        <source platform="windows" file="reaper_simonsreaperplugin_x64.dll">https://github.com/simongumbleton/SimonsReaperPlugin/raw/master/LatestBuilds/reaper_simonsreaperplugin_x64.dll</source>
+      </version>
+    </reapack>
+  </category>
   <category name="General/Items&amp;Regions">
     <reapack name="CSG_SG_Crop_Region_To_Selected_Items.lua" type="script" desc="CSG_SG_Crop_Region_To_Selected_Items">
       <version name="1.0" author="Simon Gumbleton" time="2019-06-05T20:00:26Z">

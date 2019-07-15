@@ -1,10 +1,11 @@
 @description CSG Reaper to Wwise plugin
-@version 1.0
+@version 1.01
 @author Simon Gumbleton
 @about
   CSG Reaper to Wwise plugin
 @changelog
-  - Import will use existing wwise objects if found
+  - 1.01 - Event creation now working for create and import jobs
+  - 1.0	 - Import will use existing wwise objects if found
 @provides
    [windows] reaper_simonsreaperplugin_x64.dll https://github.com/simongumbleton/SimonsReaperPlugin/raw/master/LatestBuilds/reaper_simonsreaperplugin_x64.dll
 

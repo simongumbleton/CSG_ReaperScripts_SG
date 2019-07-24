@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="CSG Reaper Scripts" commit="892d892a37d2e55202e42ea9cd232c6bdcb966f8">
+<index version="1" name="CSG Reaper Scripts" commit="fee03c630edb7841de8613975f13844b112a64cb">
   <category name="Extensions">
     <reapack name="reaper_simonsreaperplugin.ext" type="extension" desc="CSG Reaper to Wwise plugin">
       <metadata>
@@ -15,8 +15,8 @@
         <source platform="windows" file="reaper_simonsreaperplugin_x64.dll">https://github.com/simongumbleton/SimonsReaperPlugin/raw/master/LatestBuilds/reaper_simonsreaperplugin_x64.dll</source>
       </version>
       <version name="1.01" author="Simon Gumbleton" time="2019-07-15T21:31:51Z">
-        <changelog><![CDATA[- 1.01 - Event creation now working for create and import jobs
-- 1.0	 - Import will use existing wwise objects if found]]></changelog>
+        <changelog><![CDATA[- 1.01 -- Event creation now working for create and import jobs
+- 1.0	 -- Import will use existing wwise objects if found]]></changelog>
         <source platform="windows" file="reaper_simonsreaperplugin_x64.dll">https://github.com/simongumbleton/SimonsReaperPlugin/raw/master/LatestBuilds/reaper_simonsreaperplugin_x64.dll</source>
       </version>
     </reapack>

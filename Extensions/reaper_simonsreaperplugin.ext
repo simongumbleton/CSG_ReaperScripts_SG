@@ -1,12 +1,12 @@
 @description CSG Reaper to Wwise plugin
-@version 1.03
+@version 1.3
 @author Simon Gumbleton
 @about
   CSG Reaper to Wwise plugin
 @changelog
--1.03-- Documentation added.
--1.02-- Fix bug with use existing wwise objects. Selection is cleared correctly after every set properties. Languages dynamically populated from Wwise project.
--1.01-- Event creation now working for create and import jobs
+-1.3-- Documentation added.
+-1.2-- Fix bug with use existing wwise objects. Selection is cleared correctly after every set properties. Languages dynamically populated from Wwise project.
+-1.1-- Event creation now working for create and import jobs
 -1.0-- Import will use existing wwise objects if found
 @provides
    [windows] reaper_simonsreaperplugin_x64.dll https://github.com/simongumbleton/SimonsReaperPlugin/raw/master/LatestBuilds/reaper_simonsreaperplugin_x64.dll

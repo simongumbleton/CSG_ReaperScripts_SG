@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="CSG Reaper Scripts" commit="8267e4d37a9bc2f4064959f2a9bc07aae6d1f798">
+<index version="1" name="CSG Reaper Scripts" commit="9e0051509c7c3dd1eb70ef41affb660abf466292">
   <category name="Extensions">
     <reapack name="reaper_simonsreaperplugin.ext" type="extension" desc="CSG Reaper to Wwise plugin">
       <metadata>
@@ -21,6 +21,14 @@
       </version>
       <version name="1.4" author="Simon Gumbleton" time="2019-07-24T19:18:31Z">
         <changelog><![CDATA[-Documentation added
+-Fix bug with use existing wwise objects. Selection is cleared correctly after every set properties. Languages dynamically populated from Wwise project.
+-Event creation now working for create and import jobs
+-Import will use existing wwise objects if found]]></changelog>
+        <source platform="windows" file="reaper_simonsreaperplugin_x64.dll">https://github.com/simongumbleton/SimonsReaperPlugin/raw/master/LatestBuilds/reaper_simonsreaperplugin_x64.dll</source>
+      </version>
+      <version name="1.5" author="Simon Gumbleton" time="2019-08-01T19:42:34Z">
+        <changelog><![CDATA[-Added config file support
+-Documentation added
 -Fix bug with use existing wwise objects. Selection is cleared correctly after every set properties. Languages dynamically populated from Wwise project.
 -Event creation now working for create and import jobs
 -Import will use existing wwise objects if found]]></changelog>

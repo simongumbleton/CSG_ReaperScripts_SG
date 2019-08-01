@@ -1,9 +1,10 @@
 @description CSG Reaper to Wwise plugin
-@version 1.4
+@version 1.5
 @author Simon Gumbleton
 @about
   CSG Reaper to Wwise plugin
 @changelog
+ -Added config file support
  -Documentation added
  -Fix bug with use existing wwise objects. Selection is cleared correctly after every set properties. Languages dynamically populated from Wwise project.
  -Event creation now working for create and import jobs

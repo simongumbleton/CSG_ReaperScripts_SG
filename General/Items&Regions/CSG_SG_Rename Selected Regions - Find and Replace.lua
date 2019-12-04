@@ -3,7 +3,7 @@
 * Description: 
 * Instructions: 
 * Author: Simon Gumbleton
-* Version: 1.0
+* Version: 1.1
 --]]
 
 function main()
@@ -12,12 +12,12 @@ function main()
   local retval, retvals_csv = reaper.GetUserInputs("Rename markers/regions", 2, "Find,Replace", "")
   if not retval or retvals_csv == "" then return end
   local inputs = retvals_csv
-  local FindReplace ={}
+  local FindReplace ={"",""}
   x = 0
   reaper.ShowConsoleMsg(inputs)
   for word in inputs:gmatch("([^,]+),?") do
     FindReplace[x] = word
-    reaper.ShowConsoleMsg(word)
+    --reaper.ShowConsoleMsg(word)
     x= x+1
   end
   

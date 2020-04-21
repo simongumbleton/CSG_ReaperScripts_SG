@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="CSG Reaper Scripts" commit="505effa6c92d781400387ddb090ca70c073d8f6a">
+<index version="1" name="CSG Reaper Scripts" commit="9ada483341fdc2550ab10e4ccf5e63c56dace897">
   <category name="Extensions">
     <reapack name="reaper_simonsreaperplugin.ext" type="extension" desc="CSG Reaper to Wwise plugin">
       <metadata>
@@ -46,14 +46,17 @@
     </reapack>
   </category>
   <category name="General/Fx">
-    <reapack name="CSG_RB_AddFxToSelectedItems.eel" type="script" desc="CSG_RB_AddFxToSelectedItems">
-      <version name="1.0" author="Rob Blake" time="2020-04-21T14:53:01Z">
-        <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/505effa6c92d781400387ddb090ca70c073d8f6a/General/Fx/CSG_RB_AddFxToSelectedItems.eel</source>
+    <reapack name="CSG_RB_AddFxToSelectedItems.lua" type="script" desc="CSG_RB_AddFxToSelectedItems">
+      <version name="1.01" author="Rob Blake" time="2020-04-21T15:04:32Z">
+        <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/9ada483341fdc2550ab10e4ccf5e63c56dace897/General/Fx/CSG_RB_AddFxToSelectedItems.lua</source>
       </version>
     </reapack>
     <reapack name="CSG_RB_ShowOrAddTrackFx.eel" type="script" desc="CSG_RB_ShowOrAddTrackFx">
       <version name="1.0" author="Rob Blake" time="2020-04-21T14:50:11Z">
         <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/cb6e32eee7dc0b9eac8a3d02a84d3e92ddeacb84/General/Fx/CSG_RB_ShowOrAddTrackFx.eel</source>
+      </version>
+      <version name="1.01" author="Rob Blake" time="2020-04-21T15:04:32Z">
+        <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/9ada483341fdc2550ab10e4ccf5e63c56dace897/General/Fx/CSG_RB_ShowOrAddTrackFx.eel</source>
       </version>
     </reapack>
   </category>

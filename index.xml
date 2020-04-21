@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="CSG Reaper Scripts" commit="94caf3c372d252ff6e469221e4469642007bc597">
+<index version="1" name="CSG Reaper Scripts" commit="cb6e32eee7dc0b9eac8a3d02a84d3e92ddeacb84">
   <category name="Extensions">
     <reapack name="reaper_simonsreaperplugin.ext" type="extension" desc="CSG Reaper to Wwise plugin">
       <metadata>
@@ -45,6 +45,13 @@
       </version>
     </reapack>
   </category>
+  <category name="General/Fx">
+    <reapack name="CSG_RB_ShowOrAddTrackFx.eel" type="script" desc="CSG_RB_ShowOrAddTrackFx">
+      <version name="1.0" author="Rob Blake" time="2020-04-21T14:50:11Z">
+        <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/cb6e32eee7dc0b9eac8a3d02a84d3e92ddeacb84/General/Fx/CSG_RB_ShowOrAddTrackFx.eel</source>
+      </version>
+    </reapack>
+  </category>
   <category name="General/Items&amp;Regions">
     <reapack name="CSG_SG_Adjust_Start_End_SelectedRegions.lua" type="script" desc="CSG_SG_Adjust_Start_End_SelectedRegions">
       <version name="1.0" author="Simon Gumbleton" time="2019-09-05T17:06:38Z">
@@ -66,6 +73,11 @@
         <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/747f147b55a31641168056913f18b32b6ee21cf2/General/Items&amp;Regions/CSG_SG_Rename%20markers%20and%20regions%20within%20time%20selection.lua</source>
       </version>
     </reapack>
+    <reapack name="CSG_SG_Rename Selected Items - Find and Replace.lua" type="script" desc="CSG_SG_Rename Selected Regions - Find and Replace">
+      <version name="1.0" author="Simon Gumbleton" time="2019-12-04T13:43:27Z">
+        <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/4a5babe88da95b5f43d698b314bbd7abcf2f87af/General/Items&amp;Regions/CSG_SG_Rename%20Selected%20Items%20-%20Find%20and%20Replace.lua</source>
+      </version>
+    </reapack>
     <reapack name="CSG_SG_Rename Selected Items - Remove Language Code.lua" type="script" desc="CSG_SG_Rename Selected Items - Remove Language Code">
       <version name="1.0" author="Simon Gumbleton" time="2019-06-05T20:00:26Z">
         <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/747f147b55a31641168056913f18b32b6ee21cf2/General/Items&amp;Regions/CSG_SG_Rename%20Selected%20Items%20-%20Remove%20Language%20Code.lua</source>
@@ -74,6 +86,9 @@
     <reapack name="CSG_SG_Rename Selected Regions - Find and Replace.lua" type="script" desc="CSG_SG_Rename Selected Regions - Find and Replace">
       <version name="1.0" author="Simon Gumbleton" time="2019-06-05T20:00:26Z">
         <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/747f147b55a31641168056913f18b32b6ee21cf2/General/Items&amp;Regions/CSG_SG_Rename%20Selected%20Regions%20-%20Find%20and%20Replace.lua</source>
+      </version>
+      <version name="1.1" author="Simon Gumbleton" time="2019-12-04T13:43:27Z">
+        <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/4a5babe88da95b5f43d698b314bbd7abcf2f87af/General/Items&amp;Regions/CSG_SG_Rename%20Selected%20Regions%20-%20Find%20and%20Replace.lua</source>
       </version>
     </reapack>
     <reapack name="CSG_SG_RenameAllMarkers_FixedString.eel" type="script" desc="CSG_SG_RenameAllMarkers_FixedString">

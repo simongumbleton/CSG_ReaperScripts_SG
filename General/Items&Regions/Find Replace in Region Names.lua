@@ -3,7 +3,8 @@
 * Description: Prompts user to replace part of a region's name with new text if region name contains search criteria.
 * Instructions: 
 * Author: Aaron Cendan
-* Version: 1.0
+* Version: 1.1
+* Provides: main
 --]]
 
 function findReplace() -- local (i, j, item, take, track)

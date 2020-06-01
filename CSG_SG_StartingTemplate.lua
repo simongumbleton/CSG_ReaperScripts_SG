@@ -3,7 +3,8 @@
 * Description: !!!add description here!!!!!!
 * Instructions: 
 * Author: Simon Gumbleton
-* Version: 1.0
+* Version: 1.1
+* Provides: main
 --]]
  
 

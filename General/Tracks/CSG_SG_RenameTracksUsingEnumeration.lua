@@ -3,7 +3,8 @@
 * Description: rename selected tracks with a string + enumerator (number or letter)
 * Instructions: 
 * Author: Simon Gumbleton
-* Version: 1.0
+* Version: 1.1
+* Provides: main
 --]]
  
 

@@ -4,7 +4,7 @@
 * Instructions: 
 * Author: Simon Gumbleton
 * Version: 1.1
-* Provides: [main=main]
+* Provides: [main] .
 --]]
 local TITLE = "Nudge start or end of regions in time selection"
 local UNDO_STATE_MISCCFG = 8

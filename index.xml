@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="CSG Reaper Scripts" commit="9ada483341fdc2550ab10e4ccf5e63c56dace897">
+<index version="1" name="CSG Reaper Scripts" commit="0b9f8ea5dfc36ac1c7b1edf5d6abbc448de6546f">
   <category name="Extensions">
     <reapack name="reaper_simonsreaperplugin.ext" type="extension" desc="CSG Reaper to Wwise plugin">
       <metadata>
@@ -102,6 +102,16 @@
     <reapack name="CSG_SG_RenameAllMarkers_FixedString.eel" type="script" desc="CSG_SG_RenameAllMarkers_FixedString">
       <version name="1.0" author="Simon Gumbleton" time="2019-06-05T20:00:26Z">
         <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/747f147b55a31641168056913f18b32b6ee21cf2/General/Items&amp;Regions/CSG_SG_RenameAllMarkers_FixedString.eel</source>
+      </version>
+    </reapack>
+    <reapack name="Find Replace in Region Names.lua" type="script" desc="Find Replace in Region Names">
+      <version name="1.0" author="Aaron Cendan" time="2020-06-01T08:11:49Z">
+        <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/0b9f8ea5dfc36ac1c7b1edf5d6abbc448de6546f/General/Items&amp;Regions/Find%20Replace%20in%20Region%20Names.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Find_Replace_in_Marker_Names_lua.lua" type="script" desc="Find Replace in Marker Names">
+      <version name="1.0" author="Aaron Cendan" time="2020-06-01T08:11:49Z">
+        <source main="main">https://github.com/simongumbleton/CSG_ReaperScripts_SG/raw/0b9f8ea5dfc36ac1c7b1edf5d6abbc448de6546f/General/Items&amp;Regions/Find_Replace_in_Marker_Names_lua.lua</source>
       </version>
     </reapack>
   </category>

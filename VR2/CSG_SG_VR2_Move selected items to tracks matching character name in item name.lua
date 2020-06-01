@@ -4,7 +4,7 @@
 * Instructions: 
 * Author: Simon Gumbleton
 * Version: 1.1
-* Provides: main
+* Provides: [main=main]
 --]]
   
   for key in pairs(reaper) do _G[key]=reaper[key]  end  

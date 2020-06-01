@@ -4,7 +4,7 @@
 * Instructions: 
 * Author: Aaron Cendan
 * Version: 1.1
-* Provides: main
+* Provides: [main=main]
 --]]
 
 function findReplace() -- local (i, j, item, take, track)

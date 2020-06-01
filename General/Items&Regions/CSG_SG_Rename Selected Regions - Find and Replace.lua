@@ -4,7 +4,7 @@
 * Instructions: 
 * Author: Simon Gumbleton
 * Version: 1.2
-* Provides: main
+* Provides: [main=main]
 --]]
 
 function main()

@@ -3,7 +3,7 @@
 * Description: CSG_SG_Adjust_Start_End_SelectedRegions
 * Instructions: 
 * Author: Simon Gumbleton
-* Version: 1.1
+* Version: 1.2
 * Provides: [main] .
 --]]
 local TITLE = "Nudge start or end of regions in time selection"

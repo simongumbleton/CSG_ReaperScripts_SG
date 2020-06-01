@@ -3,7 +3,7 @@
 * Description: Prompts user to replace part of a region's name with new text if region name contains search criteria.
 * Instructions: 
 * Author: Aaron Cendan
-* Version: 1.1
+* Version: 1.2
 * Provides: [main] .
 --]]
 

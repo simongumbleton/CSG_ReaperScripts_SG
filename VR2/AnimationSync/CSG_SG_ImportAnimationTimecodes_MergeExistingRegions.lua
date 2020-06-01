@@ -3,8 +3,8 @@
 * Description: 
 * Instructions: 
 * Author: Simon Gumbleton
-* Version: 1.2
-* Provides: [main] .
+* Version: 1.3
+* Provides: [main=main] .
 --]]
 
 

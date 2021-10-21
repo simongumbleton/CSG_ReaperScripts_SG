@@ -1,15 +1,11 @@
 @description CSG Reaper to Wwise plugin
-@version 1.6
+@version 2.0
 @author Simon Gumbleton
 @about
   CSG Reaper to Wwise plugin
 @changelog
- -Automation mode enabled in config file
- -Added config file support
- -Documentation added
- -Fix bug with use existing wwise objects. Selection is cleared correctly after every set properties. Languages dynamically populated from Wwise project.
- -Event creation now working for create and import jobs
- -Import will use existing wwise objects if found
+ -Rework of plugin using JUCE
 @provides
-   [windows] reaper_simonsreaperplugin_x64.dll https://github.com/simongumbleton/SimonsReaperPlugin/raw/master/LatestBuilds/reaper_simonsreaperplugin_x64.dll
+   [windows] reaper_wwise_csg_x64.dll https://github.com/simongumbleton/CSGReaperWwisePlugin/raw/master/latestBuilds/Win/reaper_wwise_csg_x64.dll
+   [darwin] reaper_wwise_csg.dylib https://github.com/simongumbleton/CSGReaperWwisePlugin/blob/master/latestBuilds/Mac/reaper_wwise_csg.dylib
 
